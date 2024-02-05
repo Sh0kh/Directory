@@ -1,0 +1,43 @@
+.Error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Error__content{
+    margin-top: 300px;
+}
+.Error__content h1{
+    font-size: 80px;
+    text-align: center;
+    color: red;
+}
+.Error__content h2{
+    font-size: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.home__router{
+    text-decoration: none;
+    width: 240px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+    padding: 9px;
+    text-align: center;
+}
+@media(max-width:340px){
+    .Error__content h1{
+        font-size: 50px;
+    }
+}
+@media(max-width:250px){
+    .home__router{
+        width: 100%;
+    }
+}
